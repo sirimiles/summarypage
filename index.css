@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  background-color: #ffff;
+}
+/* Heading Section */
+h1 {
+  font-size: 30px;
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h2 {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #0866ff;
+}
+
+.border {
+  align-content: flex-end;
+  margin-left: 20%;
+  margin-top: 30px;
+  width: 60%;
+  height: 40px;
+  border: none;
+  border-radius: 12px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background-color: #ebf7fe;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.75);
+}
+nav ul {
+  font-size: 20px;
+  display: flex;
+  list-style: none;
+  gap: 70px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ebf7fe;
+}
+nav ul li {
+  font-weight: bold;
+  background-color: #ebf7fe;
+  border-radius: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  background-color: #ebf7fe;
+  color: #808080;
+  font-weight: bold;
+  cursor: pointer;
+}
+nav ul li a:hover {
+  color: #0866ff;
+  text-decoration: underline;
+}
+.container {
+  display: flex;
+  margin-left: 20%;
+  width: 60%;
+  height: 50vh;
+  text-align: center;
+  border: none;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.75);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 12px;
+}
+.box {
+  width: 800px;
+  height: 50vh;
+  border: 1px solid rgb(217, 216, 216);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#box1 {
+  background-color: rgb(255, 255, 255);
+  border-bottom-left-radius: 15px;
+}
+#box2 {
+  background-color: rgb(255, 255, 255);
+  border-bottom-right-radius: 15px;
+}
+
+.box h3 {
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  color: #808080;
+}
+
+#paste {
+  margin-top: 30px;
+  border-radius: 20px;
+  padding: 10px 50px;
+  border: 3px solid#0866ff;
+  color: #808080;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button i {
+  font-size: 20px;
+}
+#paste:hover {
+  background-color: rgb(245, 245, 254);
+}
+
+.final-stage {
+  margin-top: 20%;
+  display: flex;
+  gap: 40%;
+  margin-left: 30px;
+  color: #808080;
+}
+.final-stage button {
+  border-radius: 8px;
+  background-color: #0866ff;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  padding: 6px 40px;
+  font-size: 18px;
+}
+.final-stage button:hover {
+  background-color: #01307a;
+}
+
+.final-stage-right {
+  display: flex;
+  margin-left: 30px;
+  gap: 20px;
+  margin-top: 50%;
+  color: #808080;
+}
